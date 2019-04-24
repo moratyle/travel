@@ -1,0 +1,32 @@
+:root {
+    --main--ecuador--color: green;
+    --hover--ecuador--color: rgb(0, 99, 0);
+  }
+span {
+    font-size: 3vw;
+    line-height: 60px;
+}
+
+.title {
+    margin-top: -25px;
+}
+
+.tag {
+    border: 5px solid var(--main--ecuador--color);
+    background-color: var(--main--ecuador--color);
+}
+
+.tag:hover {
+    background-color: var(--hover--ecuador--color);
+    border: 5px solid var(--hover--ecuador--color);
+}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1024px) {
+    .title_img {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {}
